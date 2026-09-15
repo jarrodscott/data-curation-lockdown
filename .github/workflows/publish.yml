@@ -25,7 +25,10 @@ jobs:
           packages: |
             blogdown
             tidyverse
-
+            DT
+            Rcpp
+            htmltools
+            
       - name: Install Hugo
         run: |
           Rscript -e 'blogdown::install_hugo(version = "auto")'
