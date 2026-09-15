@@ -35,7 +35,7 @@ jobs:
 
       - name: Build Blogdown Site
         run: |
-          Rscript -e 'blogdown::build_site(local = FALSE, run_hugo = TRUE)'
+          Rscript -e 'blogdown::build_site(local = FALSE, run_hugo = TRUE, build_rmd = "force")'
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
