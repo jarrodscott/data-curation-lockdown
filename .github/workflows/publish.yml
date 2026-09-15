@@ -43,6 +43,8 @@ jobs:
         run: |
           Rscript -e 'rmarkdown::render_site(encoding = "UTF-8")'
           hugo --gc --minify
+          echo "=== REMOVING THE NESTED GITIGNORE ==="
+          rm -f ./public/.gitignore
           echo "=== CHECKING CURRENT DIRECTORY COMTENTS ==="
           ls -la
           echo "=== CHECKING PUBLIC DIRECTORY CONTENTS ==="
