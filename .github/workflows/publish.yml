@@ -45,10 +45,7 @@ jobs:
           hugo --gc --minify
           echo "=== REMOVING THE NESTED GITIGNORE ==="
           rm -f ./public/.gitignore
-          echo "=== CHECKING CURRENT DIRECTORY COMTENTS ==="
-          ls -la
-          echo "=== CHECKING PUBLIC DIRECTORY CONTENTS ==="
-          ls -la public || echo "No public folder found!"
+
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
