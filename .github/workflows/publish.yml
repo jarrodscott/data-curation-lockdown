@@ -35,7 +35,8 @@ jobs:
 
       - name: Build Blogdown Site
         run: |
-          Rscript -e 'blogdown::build_site(local = FALSE, run_hugo = TRUE, build_rmd = TRUE)'
+          Rscript -e 'blogdown::build_site(local = FALSE, run_hugo = FALSE, build_rmd = TRUE)'
+          hugo
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
@@ -43,3 +44,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+
