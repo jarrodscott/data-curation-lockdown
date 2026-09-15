@@ -1,4 +1,5 @@
 baseURL: https://jarrodscott.github.io/data-curation-lockdown/
+publishDir: public
 
 title: Lessons & Readings
 theme: ghostwriter
@@ -41,7 +42,7 @@ params:
   intro: true
   headline: Data 🗄️ Curation
   description: With R Markdown, GitHub, & Public Repositories
-  github: "https://github.com/XXX"
+  github: "https://github.com/jarrodscott/data-curation-lockdown"
   #gitlab: "https://gitlab.com/XXX"
   #linkedin: "https://linkedin.com/in/XXX/"
   #twitter: "https://twitter.com/XXX"
