@@ -35,8 +35,8 @@ jobs:
 
       - name: Build Blogdown Site
         run: |
-          Rscript -e 'blogdown::build_site(local = FALSE, run_hugo = FALSE, build_rmd = TRUE)'
-          hugo
+          Rscript -e 'rmarkdown::render_site(encoding = "UTF-8")'
+          hugo --gc --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
