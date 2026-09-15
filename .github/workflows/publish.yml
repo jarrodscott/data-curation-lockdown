@@ -5,11 +5,15 @@ on:
 
 name: Blogdown Publish
 
+# Grant the workflow the necessary permissions to publish to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -22,13 +26,13 @@ jobs:
         with:
           packages: |
             blogdown
+            rmarkdown
+            knitr
             tidyverse
             DT
             Rcpp
             htmltools
-            rmarkdown
-            knitr
- 
+
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v3
         with:
