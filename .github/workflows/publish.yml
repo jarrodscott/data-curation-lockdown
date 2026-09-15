@@ -26,7 +26,9 @@ jobs:
             DT
             Rcpp
             htmltools
-
+            rmarkdown
+            knitr
+ 
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v3
         with:
