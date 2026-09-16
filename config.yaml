@@ -41,7 +41,7 @@ taxonomies:
   tag: tags
 
 params:
-  customCSS: ["/dist/styles.css"]
+  customCSS: ["https://jarrodscott.github.io/data-curation-lockdown/dist/custom.css"]
   mainSections:
     - post
     - page

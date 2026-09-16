@@ -66,10 +66,6 @@ jobs:
           echo "=== DISABLING JEKYLL ENGINE ==="
           touch ./public/.nojekyll
           rm -f ./public/.gitignore
-          echo "=== FIXING ASSET NAME MISMATCH ==="
-          cp ./public/dist/site.css ./public/dist/styles.css || echo "site.css not found"
-          echo "=== DIAGNOSTIC: STYLESHEET CHECK ==="
-          grep -i 'rel="stylesheet"' ./public/index.html || echo "No links found"
 
 
       - name: Upload Build Artifact
