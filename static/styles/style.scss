@@ -2,7 +2,7 @@
 // ============================================================ //
 // ============================================================ //
 
-$primary: #F03838;
+$primary: #006DDB;
 $secondary: #303030;
 $background: #FEFEFE;
 
@@ -15,7 +15,7 @@ html, body { height: 100%; }
 body {
     background: $background;
     color: #424242;
-    font-family: "Open Sans", arial, sans-serif;
+    font-family: "Source Sans Pro", arial, sans-serif;
     font-size: 18px;
 }
 
@@ -195,7 +195,7 @@ table {
     border-radius: 3px;
     color: #FEFEFE;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     padding: 10px 12px;
     text-transform: uppercase;
 
