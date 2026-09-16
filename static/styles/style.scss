@@ -13,7 +13,10 @@ $background: #FEFEFE;
 html, body { height: 100%; }
 
 body {
-    background: $background;
+    background-color: hotpink !important;
+}
+
+body {
     color: #424242;
     font-family: "Source Sans Pro", arial, sans-serif;
     font-size: 18px;
