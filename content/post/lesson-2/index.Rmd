@@ -394,7 +394,7 @@ As I said, please spend some time learning this material and asking questions. I
 
 
 ```{r, echo=FALSE}
-blogdown::shortcode('edit', 'https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/lesson-2.Rmd')
+blogdown::shortcode('edit', 'https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/lesson-2/index.Rmd')
 ```
 
 ```{r, echo=FALSE}

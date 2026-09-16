@@ -13,7 +13,7 @@ As advertised, this course is about using R Markdown and GitHub. I appreciate th
 
 In future lessons you will incorporate these skills, so it is time to start practicing. If there is demand for it, I am happy to turn any of these topics into separate lessons--just let me know. For now, work through the tutorials available on the Web. These are the same tutorials I used, but if you find other ones that you, like please tell me or post to Slack and I will update this page.
 
-For your benefit, I also include a section on [Additional Tutorials]() that cover these toipcs in more depth plus tutorials on other concepts that you may find useful.
+For your benefit, I also include a section on [Additional Tutorials](#additional-tutorials) that cover these toipcs in more depth plus tutorials on other concepts that you may find useful.
 
 ## Command Line Interface
 
