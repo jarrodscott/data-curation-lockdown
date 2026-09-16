@@ -62,15 +62,12 @@ jobs:
 
       - name: Build Blogdown Site
         run: |
-          Rscript -e 'blogdown::build_site(local = FALSE, run_hugo = FALSE, build_rmd = TRUE)'
-          hugo --gc --minify
-          echo "=== DISABLING JEKYLL ENGINE AND REMOVING DUPLICATED GITIGNORE ==="
+          Rscript -e 'blogdown::build_site(local = FALSE, run_hugo = TRUE)'
+          echo "=== DISABLING JEKYLL ENGINE ==="
           touch ./public/.nojekyll
           rm -f ./public/.gitignore
-          echo "=== DIAGNOSTIC 1: FINDING THE STYLESHEET LINK IN YOUR GENERATED HTML ==="
-          grep -i 'rel="stylesheet"' ./public/index.html || echo "No stylesheet links found in index.html"
-          echo "=== DIAGNOSTIC 2: SEARCHING FOR ANY COMPILED CSS FILES ==="
-          find ./public -name "*.css" || echo "No CSS files found in public directory"
+          echo "=== DIAGNOSTIC: STYLESHEET CHECK ==="
+          grep -i 'rel="stylesheet"' ./public/index.html || echo "No links found"
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3

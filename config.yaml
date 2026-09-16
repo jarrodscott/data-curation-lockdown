@@ -1,5 +1,5 @@
-baseURL: https://jarrodscott.github.io/data-curation-lockdown/
 theme: ghostwriter
+baseURL: https://jarrodscott.github.io/data-curation-lockdown/
 publishDir: public
 canonifyURLs: false
 relativeURLs: false
