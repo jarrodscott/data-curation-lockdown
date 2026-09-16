@@ -41,6 +41,7 @@ taxonomies:
   tag: tags
 
 params:
+  customCSS: ["dist/styles.css"]
   mainSections:
     - post
     - page
