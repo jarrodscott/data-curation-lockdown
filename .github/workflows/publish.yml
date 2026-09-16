@@ -62,13 +62,11 @@ jobs:
 
       - name: Build Blogdown Site
         run: |
-          Rscript -e 'rmarkdown::render_site(encoding = "UTF-8")'
+          Rscript -e 'blogdown::build_site(local = FALSE, run_hugo = FALSE, build_rmd = TRUE)'
           hugo --gc --minify
           echo "=== DISABLING JEKYLL ENGINE AND REMOVING DUPLICATED GITIGNORE ==="
           touch ./public/.nojekyll
           rm -f ./public/.gitignore
-          echo "=== DIAGNOSTIC: FINDING THE STYLESHEET LINK IN YOUR GENERATED HTML ==="
-          grep -i 'rel="stylesheet"' ./public/index.html || echo "No stylesheet links found in index.html"
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
