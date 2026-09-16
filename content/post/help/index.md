@@ -80,7 +80,7 @@ Unless the owner states it explicitly,  GitHub repos are **not** (I repeat not :
 
 [`Knitr`](https://yihui.org/knitr/) is **the tool** that allows us to generate dynamic reports in R Studio  (more on `knitr` when we get started on the projects). `Knitr` is written and maintained by [Yihui Xie](https://github.com/yihui), one of my open source heroes. We will use a lot of tools created by Yihui Xie for our projects. Ok, let’s take a look at the `knitr` Issues portal on GitHub.
 
-{{< figure  src ="/img/help/issues.png" link = "https://github.com/yihui/knitr/issues?q=is%3Aissue+is%3Aclosed"  alt = "Some alt text" caption = "The `knitr` issue page." >}}
+{{< figure  src ="issues.png" link = "https://github.com/yihui/knitr/issues?q=is%3Aissue+is%3Aclosed"  alt = "Some alt text" caption = "The `knitr` issue page." >}}
 
 Issues in the `knitr` repo go back about nine years and to date, there have been almost 1450 issues filed. That is an average of one issue every 2.2 days and a lot of issues require a back-and-forth exchange to get  resolved. This can be a huge amount of work for the developer(s), especially for a  popular repo.
 
@@ -96,7 +96,7 @@ If you want to know *how* to use a feature or implement some functionality, the 
 
 > A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question.
 
-{{< figure  src ="/img/help/tags.png" link = "https://stackoverflow.com/tags"  alt = "Some alt text" caption = "The `tags` filter page of StackOverflow ." >}}
+{{< figure  src ="tags.png" link = "https://stackoverflow.com/tags"  alt = "Some alt text" caption = "The `tags` filter page of StackOverflow ." >}}
 
 There are over 60,000 tags on SO. Navigate to the [tag page](https://stackoverflow.com/tags) and type something in the filter bar, like `knitr` or `r-markdown`. Then click on one of the results and SO will show you all the messages with that tag. In the search bar you can  narrow your query by including additional keywords. Filtering by tag is also nice because you can just browse the posts and see what’s new. This is a good way to get inspiration for things you didn't even know were possible.
 

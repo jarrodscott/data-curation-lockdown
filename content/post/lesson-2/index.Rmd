@@ -220,7 +220,7 @@ output: html_document
 theme: journal
 ```
 
-I save the file, run knit, and look at the output. Hum. Nothing changed. This is because `theme` is not a general PanDoc argument like  `title`, `author`, and `date`. The `theme` argument is specific to the property of the `output` argument. To see what I mean, please find *theme* in the PanDoc options section (Page 5) of the [R Markdown Reference Guide](/files/rmarkdown-reference.pdf). What you will see is that `theme` can only be set for two document types (HTML & Beamer).
+I save the file, run knit, and look at the output. Hum. Nothing changed. This is because `theme` is not a general PanDoc argument like  `title`, `author`, and `date`. The `theme` argument is specific to the property of the `output` argument. To see what I mean, please find *theme* in the PanDoc options section (Page 5) of the [R Markdown Reference Guide](../..//files/rmarkdown-reference.pdf). What you will see is that `theme` can only be set for two document types (HTML & Beamer).
 
 ```{r, echo=FALSE}
 blogdown::shortcode("figure", src ='"/img/lesson-2/theme.png"', link ='"/img/lesson-2/theme.png"',  alt = "Doc Window", caption = "Truncated view of the PanDoc options section from the R Markdown Reference Guide.")
