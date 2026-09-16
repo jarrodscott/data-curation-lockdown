@@ -252,7 +252,7 @@ I learned by doing and that is my goal for you in this course. I also use R Mark
 And that's it for this lesson. See you on Slack.
 
 ```{r, echo=FALSE}
-blogdown::shortcode('edit', 'https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/lesson-1.Rmd')
+blogdown::shortcode('edit', 'https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/lesson-1/index.Rmd')
 ```
 
 ```{r, echo=FALSE}

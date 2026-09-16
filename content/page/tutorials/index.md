@@ -9,7 +9,7 @@ tags: ["CLI", "HTML", "CSS"]
 
 > Jump to: [CLI Tutorials](#command-line-interface), [HTML/CSS Tutorials](#html--css), & [Additional Tutorials](#additional-tutorials).
 
-As advertised, this course is about using R Markdown and GitHub. I appreciate that some of you may not want to spend time learning new skills that you don't think you need. [Originally](https://github.com/stri-con/data-curation/commit/8f29d8ea71775ed4d6ad26ca6ffc51e713a4b306#diff-229378f5e56ea68007086e49f4b0465d) I considered everything on this page to be *optional*, however I changed my mind. As I thought more about the structure of the course, I concluded that I would be doing you all a disservice if I made tools like HTML and CSS optional. So, I am now flip flopping and making Command Line Interface and  HTML/CSS  **mandatory, self-paced tutorials**. These tools are integral to our learning objectives and your work going forward, so please try to forget what I said before.
+As advertised, this course is about using R Markdown and GitHub. I appreciate that some of you may not want to spend time learning new skills that you don't think you need. Originally I considered everything on this page to be *optional*, however I changed my mind. As I thought more about the structure of the course, I concluded that I would be doing you all a disservice if I made tools like HTML and CSS optional. So, I am now flip flopping and making Command Line Interface and  HTML/CSS  **mandatory, self-paced tutorials**. These tools are integral to our learning objectives and your work going forward, so please try to forget what I said before.
 
 In future lessons you will incorporate these skills, so it is time to start practicing. If there is demand for it, I am happy to turn any of these topics into separate lessons--just let me know. For now, work through the tutorials available on the Web. These are the same tutorials I used, but if you find other ones that you, like please tell me or post to Slack and I will update this page.
 
@@ -83,4 +83,4 @@ From Learn X in Y minutes, [R in English (EN)](https://learnxinyminutes.com/docs
 * [Basic tutorial & quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) from StackExchange. A bit old now but still good.
 
 
-{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/page/tutorials.md" >}}
+{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/page/tutorials/index.md" >}}

@@ -39,4 +39,4 @@ And that's it for now. After reading this please let me know if you are (still) 
 
 
 
-{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/page/about.md">}}
+{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/page/about/index.md">}}

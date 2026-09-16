@@ -25,4 +25,4 @@ So what can we do about it? I think that a good first step is to create web prod
 
 That's it. Thanks for stopping by.
 
-{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/rationale.md" >}}
+{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/rationale/index.md" >}}

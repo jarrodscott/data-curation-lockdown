@@ -12,7 +12,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 ```
 
 {{% openbox %}}
-Here is the link to the [Practicals Page](https://stri-con.github.io/dc-single/index.html) for Lesson 2. I will add new assignments every day or so to help you create a single page document. For now you can find the raw `.Rmd` file on GitHub. The link is in the title of the Practicals Page. 
+Here is the link to the [Practicals Page](https://jarrodscott.github.io/dc-single/index.html) for Lesson 2. I will add new assignments every day or so to help you create a single page document. For now you can find the raw `.Rmd` file on GitHub. The link is in the title of the Practicals Page. 
 {{% /openbox %}}
 
 

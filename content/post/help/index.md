@@ -118,4 +118,4 @@ Yihui Xie has been an open source programmer and active in the community for a l
 
 That's it for now. Thanks for stopping by.
 
-{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/help.md" >}}
+{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/help/index.md" >}}

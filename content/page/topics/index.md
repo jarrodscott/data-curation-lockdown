@@ -32,4 +32,4 @@ Please continue to work on your skills in CSS, HTML, and CLI. See the [Self-Pace
 
 
 
-{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/page/topics.md">}}
+{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/page/topics/index.md">}}
