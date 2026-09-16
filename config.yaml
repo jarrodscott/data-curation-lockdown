@@ -21,7 +21,10 @@ markup:
     lineNumbersInTable: true
     noClasses: true
     tabWidth: 2
-
+  goldmark:
+    renderer:
+      unsafe: true
+      
 privacy:
   disqus:
     disable: true
@@ -100,10 +103,5 @@ security:
   allowContent:
     - ".*"
   enableInlineShortcodes: true
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
 
 ignoreLogs: ['warning-goldmark-raw-html']
