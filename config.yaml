@@ -2,6 +2,7 @@ baseURL: https://jarrodscott.github.io/data-curation-lockdown/
 theme: ghostwriter
 publishDir: public
 canonifyURLs: false
+relativeURLs: false
 
 title: Lessons & Readings
 languageCode: en-us
