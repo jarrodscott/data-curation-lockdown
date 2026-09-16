@@ -67,6 +67,8 @@ jobs:
           echo "=== DISABLING JEKYLL ENGINE AND REMOVING DUPLICATED GITIGNORE ==="
           touch ./public/.nojekyll
           rm -f ./public/.gitignore
+          echo "=== DIAGNOSTIC: FINDING THE STYLESHEET LINK IN YOUR GENERATED HTML ==="
+          grep -i 'rel="stylesheet"' ./public/index.html || echo "No stylesheet links found in index.html"
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
