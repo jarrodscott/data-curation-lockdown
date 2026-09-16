@@ -37,7 +37,7 @@ These are straightforward, yet broad, definitions. For example, we could apply t
 
 
 ```{r, echo=FALSE}
-blogdown::shortcode('edit', 'https://github.com/stri-con/data-curation/blob/master/content/post/reproducibility.Rmd')
+blogdown::shortcode('edit', 'https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/reproducibility.Rmd')
 ```
 
 ```{r, echo=FALSE}

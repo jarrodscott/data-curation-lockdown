@@ -83,4 +83,4 @@ From Learn X in Y minutes, [R in English (EN)](https://learnxinyminutes.com/docs
 * [Basic tutorial & quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) from StackExchange. A bit old now but still good.
 
 
-{{< edit "https://github.com/stri-con/data-curation/blob/master/content/page/tutorials.md" >}}
+{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/page/tutorials.md" >}}

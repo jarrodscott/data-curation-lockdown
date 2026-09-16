@@ -88,7 +88,7 @@ This is why it is important to be careful when you post. I do not want to discou
 
 {{< read >}}
 
-In the meantime, please take a look at this [GitHub Issue Guide](https://yihui.org/issue/) article by Yihui and check out some of the pages linked in the article. I also set up submitting templates for *Bug reports* and *Feature requests* on the repo for the course website. You can find the [link here](https://github.com/stri-con/data-curation/issues/new/choose). Click on the **Get Started** buttons to see the template, which is written in Markdown. Feel free to copy and paste into a text editor to see the formatting :) In future lessons you will be submitting Issues and Feature requests to this repo.
+In the meantime, please take a look at this [GitHub Issue Guide](https://yihui.org/issue/) article by Yihui and check out some of the pages linked in the article. I also set up submitting templates for *Bug reports* and *Feature requests* on the repo for the course website. You can find the [link here](https://github.com/jarrodscott/data-curation-lockdown/issues/new). Click on the **Get Started** buttons to see the template, which is written in Markdown. Feel free to copy and paste into a text editor to see the formatting :) In future lessons you will be submitting Issues and Feature requests to this repo.
 
 ## StackOverflow
 
@@ -118,4 +118,4 @@ Yihui Xie has been an open source programmer and active in the community for a l
 
 That's it for now. Thanks for stopping by.
 
-{{< edit "https://github.com/stri-con/data-curation/blob/master/content/post/help.md" >}}
+{{< edit "https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/help.md" >}}

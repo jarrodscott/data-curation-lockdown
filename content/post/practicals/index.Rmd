@@ -27,7 +27,7 @@ The webpage for this lesson can be found [here](https://stri-con.github.io/dc-si
 This page will be updated as new lessons and assignments are added. 
 
 ```{r, echo=FALSE}
-blogdown::shortcode('edit', 'https://github.com/stri-con/data-curation/blob/master/content/post/practicals.Rmd')
+blogdown::shortcode('edit', 'https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/practicals.Rmd')
 ```
 
 ```{r, echo=FALSE}

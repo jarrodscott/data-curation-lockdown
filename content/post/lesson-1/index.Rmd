@@ -137,7 +137,7 @@ RStudio is an [integrated development environment (IDE)](https://en.wikipedia.or
 
 ### R Markdown
 
-R Markdown is a file format for making dynamic documents with R. R Markdown combines the syntax of Markdown with the language and an environment of R. R Markdown documents are written in [Markdown](https://en.wikipedia.org/wiki/Markdown)—-a “lightweight” [markup language](https://en.wikipedia.org/wiki/Markup_language) (like HTML), that uses a relatively simple syntax to facilitate the transformation of human-readable text files into .html or .pdf documents. What this means is that rather than writing HTML and CSS code to make a website, you write your content in Markdown, which is then translated (by RStudio in this case) to web content. R code is embedded within code chunks that RStudio can identify as code. RStudio/R then runs the code and renders the output within the HTML file.
+R Markdown is a file format for making dynamic documents with R. R Markdown combines the syntax of Markdown with the language and an environment of R. R Markdown documents are written in [Markdown](https://en.wikipedia.org/wiki/Markdown)—-a “lightweight” [markup language](https://en.wikipedia.org/wiki/Markup_language) (like HTML), that uses a relatively simple syntax to facilitate the transformation of human-readable text files into `.html` or `.pdf` documents. What this means is that rather than writing HTML and CSS code to make a website, you write your content in Markdown, which is then translated (by RStudio in this case) to web content. R code is embedded within code chunks that RStudio can identify as code. RStudio/R then runs the code and renders the output within the HTML file.
 
 {{% todo %}}
 
@@ -252,7 +252,7 @@ I learned by doing and that is my goal for you in this course. I also use R Mark
 And that's it for this lesson. See you on Slack.
 
 ```{r, echo=FALSE}
-blogdown::shortcode('edit', 'https://github.com/stri-con/data-curation/blob/master/content/post/lesson-1.Rmd')
+blogdown::shortcode('edit', 'https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/lesson-1.Rmd')
 ```
 
 ```{r, echo=FALSE}

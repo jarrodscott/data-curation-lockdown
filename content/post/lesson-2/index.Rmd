@@ -60,7 +60,7 @@ When you render an R Markdown document you use a program called `knitr`.  Knitr 
     <area target="_blank" alt="PanDoc" title="PanDoc" href="https://pandoc.org/" coords="577,49,613,39,659,35,695,49,678,109,639,100,600,113" shape="poly">
     <area target="_blank" alt="HTML5" title="HTML5" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" coords="733,46,798,48,791,113,765,122,739,115" shape="poly">
   </map>
-    <img src="/img/lesson-2/flow.png" alt="image map example" usemap="#map_example"><figcaption>The rendering process---creating an HTML document from R code & Markdown using the R Markdown package. EXTENDED FUNCTION. This is an image map---an HTML technique that allows you to create clickable areas on an image. I coded this so that each logo contains a different hyperlink. Try it out.  <a href = "https://gist.github.com/jarrodscott/31b8f7ab985a291c53538a97a1c3dcdc">Click here </a> if you are interested in the source code.</figcaption>
+    <img src="flow.png" alt="image map example" usemap="#map_example"><figcaption>The rendering process---creating an HTML document from R code & Markdown using the R Markdown package. EXTENDED FUNCTION. This is an image map---an HTML technique that allows you to create clickable areas on an image. I coded this so that each logo contains a different hyperlink. Try it out.  <a href = "https://gist.github.com/jarrodscott/31b8f7ab985a291c53538a97a1c3dcdc">Click here </a> if you are interested in the source code.</figcaption>
 </div>
 
 Familiarize yourself with knitr and PanDoc. Even though they are doing the work for you, understanding what each does and how they do it will help you troubleshoot problems. Links are provided in the image above.
@@ -102,7 +102,7 @@ Please spend some time looking at [The YAML Fieldguide](https://cran.r-project.o
 Open R Studio and go to `File > New File > R Markdown`. A window like this should pop up where you can fill in the details. It is not important what you put here since you can change it at any time. What *is important* is that **Document** and **HTML** are both  selected. Hit `Ok`.
 
 ```{r, echo=FALSE}
-blogdown::shortcode("figure", src ='"/img/lesson-2/create-rmd.png"', width = "600", height = "499", alt = "Doc Window", caption = "New R Markdown document window.")
+blogdown::shortcode("figure", src ='"create-rmd.png"', width = "600", height = "499", alt = "Doc Window", caption = "New R Markdown document window.")
 ```
 
 Once you hit `Ok`, a new R Markdown document is created and opened in the Environment window of RStudio. Let’s take a look, but for now just focus on the top of the page.
@@ -146,7 +146,7 @@ Make sure your files are ***Machine readable*** and ***Human readable***.
 Once you hit save, RStudio will render the document following the process [I described above](#rendering-a-document-1). Do you see any errors in the Console window? No? Good. What about a new `.html` document in the working directory? Yes? Also good. Double-click that file and it should open in your default browser. Does it look something like this?
 
 ```{r, echo=FALSE}
-blogdown::shortcode("figure", src ='"/img/lesson-2/single-page.png"', alt = "Doc Window")
+blogdown::shortcode("figure", src ='"single-page.png"', alt = "Doc Window")
 ```
 
 If so, congratulations. You just created your first web document. I admit, it is a little boring at the moment, but this is all it takes to make a basic page. There is one more aspect of YAML headers that I want to touch on before moving on.
@@ -220,10 +220,10 @@ output: html_document
 theme: journal
 ```
 
-I save the file, run knit, and look at the output. Hum. Nothing changed. This is because `theme` is not a general PanDoc argument like  `title`, `author`, and `date`. The `theme` argument is specific to the property of the `output` argument. To see what I mean, please find *theme* in the PanDoc options section (Page 5) of the [R Markdown Reference Guide](../..//files/rmarkdown-reference.pdf). What you will see is that `theme` can only be set for two document types (HTML & Beamer).
+I save the file, run knit, and look at the output. Hum. Nothing changed. This is because `theme` is not a general PanDoc argument like  `title`, `author`, and `date`. The `theme` argument is specific to the property of the `output` argument. To see what I mean, please find *theme* in the PanDoc options section (Page 5) of the [R Markdown Reference Guide](rmarkdown-reference.pdf). What you will see is that `theme` can only be set for two document types (HTML & Beamer).
 
 ```{r, echo=FALSE}
-blogdown::shortcode("figure", src ='"/img/lesson-2/theme.png"', link ='"/img/lesson-2/theme.png"',  alt = "Doc Window", caption = "Truncated view of the PanDoc options section from the R Markdown Reference Guide.")
+blogdown::shortcode("figure", src ='"theme.png"', link ='"theme.png"',  alt = "Doc Window", caption = "Truncated view of the PanDoc options section from the R Markdown Reference Guide.")
 ```
 
 If you look more broadly at this section you should notice that most options can only be used with specific document types. Please note, you will often see *option* and *argument* used interchangeably. This is annoying. Again, I will use the term *option* to refer to an *argument* plus it’s *property*.
@@ -286,7 +286,7 @@ Open the `.html` file generated when you rendered (or *knitted*) the R Markdown 
 The image on the left is a screenshot from that section of the HTML document. The first thing you should notice is that there are no delimiters or any information about the chunk, just the command `summary(cars)`. I will explain this in a second. Below that is a box with some data. We certainly didn't code this data into our R Markdown document---these data are the results of running the command. We asked for a summary of `cars` and that’s what we got.
 
 ```{r, echo=FALSE}
-blogdown::shortcode("figure", src ='"/img/lesson-2/summary.png"', alt = "Doc Window", caption = "Left, code chunk output from the HTML document. Right, output from the R console. ")
+blogdown::shortcode("figure", src ='"summary.png"', alt = "Doc Window", caption = "Left, code chunk output from the HTML document. Right, output from the R console. ")
 ```
 
 On the right is a screenshot of my R console. I just copied the command and ran it in R. I hope you can see that aside for some formatting differences, these results are identical. This is because knitr is running the code in R and encoding the results in Markdown, itself translated to HTML by PanDoc. Ninety-five percent of the time, all you need to do is paste your R code into a code chunk and it will be processed like this. Of course, nothing is absolute, and we will encounter some exceptions.
@@ -300,7 +300,7 @@ You cannot see the chunk details because they are hidden. Chunk details are inst
 Great. Let’s review the structure of a code chunk. Below is an annotated screenshot of a piece of code I wrote to define a simple color palette. If you haven't worked much with colors, the strings preceded by hash tags (`#`) are called [hex codes](https://www.color-hex.com/). Hex codes are great for encoding color in many languages including R.
 
 ```{r, echo=FALSE}
-blogdown::shortcode("figure", src ='"/img/lesson-2/chunk.png"', alt = "Doc Window", caption = "Example code chunk illustrating the formatting &  different components. ")
+blogdown::shortcode("figure", src ='"chunk.png"', alt = "Doc Window", caption = "Example code chunk illustrating the formatting &  different components. ")
 ```
 
 The format of the code chunk is as follows:
@@ -394,7 +394,7 @@ As I said, please spend some time learning this material and asking questions. I
 
 
 ```{r, echo=FALSE}
-blogdown::shortcode('edit', 'https://github.com/stri-con/data-curation/blob/master/content/post/lesson-2.Rmd')
+blogdown::shortcode('edit', 'https://github.com/jarrodscott/data-curation-lockdown/blob/main/content/post/lesson-2.Rmd')
 ```
 
 ```{r, echo=FALSE}
